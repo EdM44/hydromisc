@@ -1,11 +1,14 @@
 Package: hydromisc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Data and miscellaneous code for hydrology exercises
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Ed Maurer
+Maintainer: <emaurer@scu.edu>
+Description: Inlcudes code from some other packages and sample data
+    to use in demonstrating R applications in water resources.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.2.1
