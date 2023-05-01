@@ -5,7 +5,7 @@
 \alias{snow_data}
 \title{Snow Water Equivalent from SNOTEL}
 \format{
-A data frame with daily values of snwo water equivalent
+A data frame with daily values of snow water equivalent
 }
 \usage{
 snow_data
