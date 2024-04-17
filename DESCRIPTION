@@ -1,7 +1,7 @@
 Package: hydromisc
 Type: Package
 Title: Data and miscellaneous code for hydrology exercises
-Version: 0.1.0
+Version: 0.1.1
 Author: Ed Maurer
 Maintainer: <emaurer@scu.edu>
 Description: Inlcudes code from some other packages and sample data
@@ -11,4 +11,4 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3

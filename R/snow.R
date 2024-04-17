@@ -48,6 +48,8 @@
 #' on Modelling and Software iEMSs International Modelling and Software Society
 #' Available through www.iemss.org
 #'
+#' @importFrom stats as.ts
+#'
 #' @export
 snow.sim <-
   function(DATA, Tmax, Tmin, kd, kdmonth=NULL, kf=1, rcap=0.025, Tmelt = 0, deltaT = 0,
