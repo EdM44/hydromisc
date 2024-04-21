@@ -58,5 +58,12 @@
 #' @format A time series of 20 years of synthetic monthly streamflow in 10^6 m^3
 "inflows_20years"
 
-
-
+#' Snow index model output from monte carlo simulation
+#' snow_data used as observed swe and input precip and
+#' temp to snow model
+#'
+#' See https://edm44.github.io/hydr-watres-book/fate-of-precipitation.html
+#' save(out, file = "snow_mc_out.rda")
+#'
+#' @format A vector of RMSE for each of 10,000 simulation runs
+"snow_mc_out"
