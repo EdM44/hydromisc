@@ -1,7 +1,7 @@
 Package: hydromisc
 Type: Package
 Title: Data and miscellaneous code for hydrology exercises
-Version: 0.1.2
+Version: 0.1.3
 Author: Ed Maurer
 Maintainer: <emaurer@scu.edu>
 Description: Inlcudes code from some other packages and sample data

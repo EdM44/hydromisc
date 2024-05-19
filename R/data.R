@@ -67,3 +67,30 @@
 #'
 #' @format A vector of RMSE for each of 10,000 simulation runs
 "snow_mc_out"
+
+#' Mean monthly flows for USGS gauge 11169500
+#' Naturalized flows from nhdPlus
+#'
+#' See https://edm44.github.io/hydr-watres-book/the-hydrologic-cycle-and-precipitation.html
+#' usethis::use_data(df.flows)
+#'
+#' @format A data frame with 12 monthly values of flow
+"df.flows"
+
+#' Mean monthly PRISM precipitation in mm for the basin draining to USGS gauge 11169500
+#' downloaded using R package prism
+#'
+#' See https://edm44.github.io/hydr-watres-book/the-hydrologic-cycle-and-precipitation.html
+#' usethis::use_data(df.p_prism)
+#'
+#' @format A data frame with 12 monthly values of precipitation
+"df.p_prism"
+
+#' Mean monthly PRISM temperature in C for the basin draining to USGS gauge 11169500
+#' downloaded using R package prism
+#'
+#' See https://edm44.github.io/hydr-watres-book/the-hydrologic-cycle-and-precipitation.html
+#' usethis::use_data(df.t_prism)
+#'
+#' @format A data frame with 12 monthly values of air temperature
+"df.t_prism"
