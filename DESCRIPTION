@@ -1,12 +1,15 @@
 Package: hydromisc
 Type: Package
 Title: Data and miscellaneous code for hydrology exercises
-Version: 0.1.3
-Author: Ed Maurer
-Maintainer: <emaurer@scu.edu>
-Description: Inlcudes code from some other packages and sample data
-    to use in demonstrating R applications in water resources.
-License: GPL-3
+Version: 0.1.4
+Authors@R: c("Ed", "Maurer", , "emaurer@scu.edu", role = c("aut", "cre"))
+Description: Includes supplemental code as well as adapted code from some other 
+    packages. It also includes sample data to use in demonstrating R applications 
+    in water resources. The data and code are used in demonstrations in 
+    "Hydraulics and Water Resources: Examples Using R", Maurer (2023)
+    <doi:10.5281/zenodo.7576843>.
+License: GPL-3 +  file LICENSE
+URL: https://github.com/EdM44/hydromisc
 Encoding: UTF-8
 LazyData: true
 Depends: 

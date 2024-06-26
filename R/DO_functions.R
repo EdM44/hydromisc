@@ -8,10 +8,10 @@
 #' actual temperature prior to calculating dissolved oxygen deficit.
 #'
 #' @param T the water temperature [\eqn{^{\circ}C}{C} or \eqn{^{\circ}F}{F}]
-#' @param Q1 first input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}
+#' @param Q1 first input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}]
 #' @param T1 the first conservative constituent to the Mixture function, usually
 #' a temperature or concentration
-#' @param Q2 the second input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}
+#' @param Q2 the second input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}]
 #' @param T2 the second conservative constituent to the Mixture function, usually
 #' a temperature or concentration
 #'
