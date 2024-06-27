@@ -20,12 +20,12 @@ O2sat(T = NULL, P = 1)
 DOdeficit(t = NULL, K1 = NULL, K2 = NULL, L0 = NULL, D0 = NULL)
 }
 \arguments{
-\item{Q1}{first input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}}
+\item{Q1}{first input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}]}
 
 \item{T1}{the first conservative constituent to the Mixture function, usually
 a temperature or concentration}
 
-\item{Q2}{the second input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}}
+\item{Q2}{the second input flow rate to Mixture function [\eqn{m^3 s^{-1}}{m^3/s}]}
 
 \item{T2}{the second conservative constituent to the Mixture function, usually
 a temperature or concentration}

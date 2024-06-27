@@ -15,6 +15,9 @@
 #' @param percent the percent finer corresponding to each sieve or size [percent]
 #' @param N a single percent finer used in the Dsize function [percent]
 #' @param DN a single diameter used in the pctfromSize function [mm or in]
+#' @param D10 the diameter with 10 percent finer, optional argument to grainSize.coefs [mm or in]
+#' @param D30 the diameter with 30 percent finer, optional argument to grainSize.coefs [mm or in]
+#' @param D60 the diameter with 60 percent finer, optional argument to grainSize.coefs [mm or in]
 #' @param metric boolean for units of sizes: TRUE = mm, FALSE = in (Default = TRUE)
 
 #' @return From the grainSize.coefs function: a list of the uniformity coefficient (Cu), curvature coefficient (Cc) and the effective size (D10) of the soil sample
@@ -26,6 +29,9 @@
 #' @return From the Dsize function: The size associated with the given percent finer
 #'
 #' @return From the pctfromSize function: The percent finer associated with the given diameter
+#'
+#' @importFrom stats approx
+#' @importFrom graphics abline axis box lines par
 #'
 #' @name GrainSize
 NULL
