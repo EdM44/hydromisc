@@ -1,6 +1,10 @@
 <!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
 
-## hydromisc 0.1.5
+# hydromisc 0.1.6
+
+- Add extdata of well level observations
+
+# hydromisc 0.1.5
 
 - Add functions for pump drawdown analysis
 - Add extdata for sample drawdown observations
