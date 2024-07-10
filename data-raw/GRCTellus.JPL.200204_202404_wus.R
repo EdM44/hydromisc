@@ -28,3 +28,4 @@ remove(r)
 terra::writeCDF(r_wus, "GRCTellus.JPL.200204_202404_wus.nc", varname = "lwe_thickness", 
                 longname = "Liquid_Water_Equivalent_Thickness", 
                 unit = "cm")
+terra::writeVector(wus_t, "wus_states.shp")
