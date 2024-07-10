@@ -1,7 +1,7 @@
 Package: hydromisc
 Type: Package
 Title: Data and miscellaneous code for hydrology exercises
-Version: 0.1.6
+Version: 0.1.7
 Authors@R: c(person("Ed", "Maurer", role = c("aut", "cre"), email = "emaurer@scu.edu"))
 Description: Includes supplemental code as well as adapted code from some other 
     packages. It also includes sample data to use in demonstrating R applications 

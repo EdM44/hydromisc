@@ -1,5 +1,9 @@
 <!-- NEWS.md is generated from NEWS.Rmd. Please edit that file -->
 
+# hydromisc 0.1.7
+
+- Add extdata of GRACE netcdf file of liquid water thickness
+
 # hydromisc 0.1.6
 
 - Add extdata of well level observations
